@@ -3,7 +3,7 @@
 $sName = "newsever.mysql.database.azure.com";
 $uName = "user";
 $pass  = "Aqib1234";
-$db_name = "task_db";
+$db_name = "taskdb";
 
 try {
 	$conn = new PDO("mysql:host=$sName;dbname=$db_name", $uName, $pass);
@@ -13,4 +13,5 @@ try {
 	exit;
 
 }
+
 
