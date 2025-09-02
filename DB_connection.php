@@ -1,6 +1,6 @@
 <?php  
 
-$sName = "aqib-1.database.windows.net";
+$sName = "newsever.mysql.database.azure.com";
 $uName = "user";
 $pass  = "Aqib1234";
 $db_name = "task_db";
@@ -13,3 +13,4 @@ try {
 	exit;
 
 }
+
